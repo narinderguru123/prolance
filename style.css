@@ -1,0 +1,56 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+.navbar {
+    border: none;
+    padding: 20px;
+    background: rebeccapurple;
+    border-radius:0;
+}
+.navbar a {
+    color:#fff !important;
+    font-weight: bolder;
+}
+.navbar-brand {
+    font-size: 1.6em;
+}
+
+/* wrapper */
+.wrapper {
+    background: #ccc;
+}
+
+.main {
+    widows: 100%;
+    position: relative;
+    padding: 20px;
+}
+.footer {
+    background: #111;
+    color: #fff;
+    padding: 50px;
+    position: relative;
+    top:20px !important;
+
+}
+.footer .list .list-item {
+    list-style:none;
+}
+.footer .list .title, h4 {
+    color: #ff9800;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.footer .list .social-icons a {
+    padding-right: 10px;
+    font-size: 1.4em;
+    font-weight: bolder;
+    position: relative;
+    top: 20px !important;
+    left: -40px;
+
+
+
+}
